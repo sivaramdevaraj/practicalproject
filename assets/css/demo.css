@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,greek-ext,greek,devanagari,latin-ext,vietnamese,cyrillic);
+html,
+body {
+  background-color: #777;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+.jqueryDatePickerDemo a:link,
+.jqueryDatePickerDemo a:visited {
+  color: #44a;
+}
+.jqueryDatePickerDemo a:hover,
+.jqueryDatePickerDemo a:active {
+  color: #a44;
+}
+.jqueryDatePickerDemo h2 {
+  border-bottom: 1px solid #ccc;
+}
+.jqueryDatePickerDemo .limitWidth {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+  position: relative;
+}
+.jqueryDatePickerDemo code {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-left-width: 10px;
+  color: #000;
+  padding: 10px;
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
+.jqueryDatePickerDemo span.code {
+  font-family: monospace;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  padding: 1px;
+  border-radius: 3px;
+}
+.jqueryDatePickerDemo .introduce {
+  padding: 10px 20px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+.jqueryDatePickerDemo .demo .example {
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+.jqueryDatePickerDemo .demo .example .section {
+  margin-bottom: 10px;
+}
+.jqueryDatePickerDemo .demo .example label input[type=text] {
+  margin: 0;
+  width: 100px;
+  height: 16px;
+  padding: 0;
+  text-align: center;
+}
+.jqueryDatePickerDemo .demo .example label span.calendarIcon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABCElEQVQ4T2NkYGBYBsShQNwKxAeAeD8Qg4AjEDsAcT2UD6MacairBoqvZAQS/4AYRONSSKyBIHX/QAb9h1oNMnAeEEdC+cuBdBIOF+JUh2zgYqDmRWjeiwPyY9HE8KpDNhBNH3lcmho4C+gmECYHpAE1gTA4dpEjpYEc04B6QPrAqQGXgS5Qg+8B6fdAbAzlnwXSgkCsBOXvgdIEDUR29QGgJlyJHeQgEKC/gTAvPgfa/hmI1aAuuQWkeYFYEikIiHJhB1IYgcIRHINAAEoFoPCDhXHFgHmZ6pEC9QnRFMFYJtokfGF4FCh5hFSToOptgLQ1iI1cwJJpFoo2cAELqgJghSqlhi4FACqZYUdwI8SAAAAAAElFTkSuQmCC');
+  vertical-align: top;
+}
+.jqueryDatePickerDemo .changeLog .dateTime {
+  color: #bbb;
+  font-size: 0.8em;
+}
+.jqueryDatePickerDemo .changeLog .dateTime:before {
+  content: ' : ';
+}

@@ -1,0 +1,34 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-06-15 10:18:53 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:10 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:11 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:17 --> Severity: Notice  --> Undefined variable: city_id /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 33
+ERROR - 2016-06-15 10:19:17 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:17 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:19 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:20 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:22 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:23 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:23 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:25 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:26 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:19:57 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:20:11 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:20:14 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:20:34 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:20:35 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:20:46 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:21:30 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:21:30 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:51:14 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:51:15 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 10:52:09 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 11:24:37 --> Severity: Notice  --> Undefined index: city_id /home/asaprogrammer/public_html/mostlikers/riceroom/application/controllers/rice.php 21
+ERROR - 2016-06-15 11:24:37 --> Severity: Notice  --> Undefined variable: city_id /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 33
+ERROR - 2016-06-15 11:24:37 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 11:25:04 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 11:25:40 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 11:25:40 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 11:25:41 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40
+ERROR - 2016-06-15 13:16:34 --> Severity: Notice  --> Undefined variable: search_data /home/asaprogrammer/public_html/mostlikers/riceroom/application/views/includes/header.php 40

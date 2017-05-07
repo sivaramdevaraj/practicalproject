@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Helper 1</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="<?php echo base_url(CSS); ?>/bootstrap.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.<?php echo base_url(JS); ?>/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<style>
+			.image-wrapper {
+				position: relative;
+			}
+			.image-wrapper img{
+				top: 50%;
+				margin-top: -256px;
+				position: relative;
+			}
+			.image-fixed-one.affix{
+				top: 0;
+				width: 50%;
+			    z-index: 99;
+			    position: fixed;
+			    padding-right: 15px;
+			    height: 100% !important;
+			}
+			.image-fixed-two.affix{
+				top: 0;
+				width: 50%;
+			    z-index: 99;
+			    position: fixed;
+			    padding-right: 15px;
+			    height: 100% !important;
+			}
+
+			.image-fixed-one.affix-bottom{
+				width: 100% !important;
+				bottom : 0;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="header-height" style="background: #f4f4f4;height: 400px;" class="text-center"><h1>dummy text</h1></div>
+
+			<div class="clearfix">
+				<div class="image-wrapper" style="width: 50%; float: left; min-height: 100px;">
+					<div class="image-fixed-one text-center" style="height: 100%;background-color: #333;">
+						<img src="file:///C:/xampp/htdocs/arun/library/<?php echo base_url(IMAGES); ?>/blog.png" alt="">
+					</div>
+				</div>
+				<div class="image-content-one image-content" style="width: 50%; float: left; background-color: #f4f4f4; font-size: 20px; line-height: 40px;">
+					<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt, eum consequuntur nam distinctio iure fugiat excepturi perferendis inventore voluptatem quas odio similique quam placeat eos, sint ut, fuga corporis!</div>
+					<div>Dolorem necessitatibus, consequuntur, ipsam deserunt praesentium autem modi molestias doloremque placeat quia, aliquam temporibus harum amet. Voluptates reprehenderit itaque doloremque voluptatibus minus sapiente numquam maxime illo adipisci laboriosam dolor, et!</div>
+					<div>Sit voluptatibus qui quibusdam fugit ad harum et possimus. Rem provident, sint? Est voluptate, quo cumque commodi facere quam veniam debitis totam, dolore. Maxime quibusdam, cupiditate sunt totam distinctio aut.</div>
+					<div>Accusantium, eaque odit excepturi eos reprehenderit omnis, suscipit recusandae possimus repellat, sapiente fugit dignissimos vitae quisquam unde voluptas ducimus tenetur. Dolores perferendis similique distinctio minima explicabo, amet veritatis eligendi assumenda.</div>
+					<div>In explicabo reiciendis, a iusto odit, numquam possimus perferendis tempore voluptates dolorem, ex laudantium! Obcaecati dolorem, voluptates neque quod reprehenderit distinctio accusamus dignissimos libero. Quod ab quae dolore, tempora atque.</div>
+					<div>Et ipsum facere quis, nobis fuga, sequi odit magnam, quisquam alias excepturi impedit laudantium doloribus totam natus tenetur provident eligendi nemo enim saepe commodi recusandae temporibus quam necessitatibus ducimus praesentium!</div>
+					<div>Error necessitatibus exercitationem maxime itaque, atque voluptatibus! Iusto dolores delectus explicabo ducimus dolorum animi consequuntur fugiat sapiente minima distinctio, odio voluptatibus voluptates, nemo quidem repudiandae, et dolorem soluta. Facere, mollitia?</div>
+					<div>Optio dolores ut, possimus modi obcaecati molestiae distinctio blanditiis veritatis quibusdam tempore consequuntur, cupiditate eos cum doloribus esse earum quidem praesentium. Est dignissimos, quaerat facere placeat doloribus natus vero repudiandae.</div>
+					<div>Ea, modi, optio. Temporibus odio vero assumenda eum, odit magni numquam modi id fuga incidunt fugiat explicabo sunt, est ea, ipsum minima reiciendis? Beatae similique molestiae rem voluptatum fuga dolorum.</div>
+					<div>Autem voluptates, et asperiores quidem, modi quisquam ea, illum rerum placeat eaque blanditiis quia eos molestias quam consectetur aperiam mollitia ipsum laudantium enim eum exercitationem facere, ad commodi esse. Facere.</div>
+				</div>
+			</div>
+			
+		<!-- jQuery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="<?php echo base_url(JS); ?>/bootstrap.min.js"></script>
+
+		<script>
+		var wrapper_height = $(window).height();
+		$('.image-wrapper').height(wrapper_height);
+
+		var body_height = $('body').height();
+		var head_height = $('.header-height').height();
+		var img1_height = $('.image-content-one').height();
+		$('.image-fixed-one').affix({
+			offset: {
+				top: $('.header-height').height(),
+				bottom: body_height - (img1_height + head_height)
+			}
+		});
+
+		$('.image-fixed-two').affix({
+			offset: {
+				top: $('.header-height').height() + $('.image-content-one').height(),
+				bottom: $('.image-fixed').next('.image-fixed-content').height()
+			}
+		});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,86 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-05-02 10:52:28 --> Severity: Notice  --> Undefined variable: city_id C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 33
+ERROR - 2017-05-02 10:52:28 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 10:52:36 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 10:59:46 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 10:59:50 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:00:37 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:02:31 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:02:31 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:02:31 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:02:53 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:02:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:02:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95121.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 87
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 88
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 88
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95384-new2.jpg): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 87
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 88
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95384-new1.jpg): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 87
+ERROR - 2017-05-02 11:09:57 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:10:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:10:07 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:10:09 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:12:06 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:12:34 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:13:23 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:13:34 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:16:44 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:17:48 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:17:49 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:17:50 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:17:50 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:17:51 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:17:59 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:18:01 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:18:38 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:18:39 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:19:41 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:19:42 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:19:42 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:20:52 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:20:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:22:13 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:22:13 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:22:14 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:24:17 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:24:17 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:24:17 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:24:36 --> Severity: Notice  --> Trying to get property of non-object C:\xampp\htdocs\ricerendezvous\application\controllers\welcome.php 125
+ERROR - 2017-05-02 11:24:38 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:24:39 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:24:39 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:25:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:25:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:25:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:28:19 --> Severity: Warning  --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\ricerendezvous\system\libraries\Email.php 1553
+ERROR - 2017-05-02 11:28:20 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:29:10 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:29:27 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:29:30 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:29:31 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:29:31 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:39:48 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:39:49 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:39:49 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:02 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:03 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:03 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:17 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:17 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:18 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:20 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:20 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:20 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:55 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:55 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:40:55 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:41:16 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:41:16 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 11:41:16 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 14:56:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\practicalproject\practicalproject\application\views\includes\header.php 40
+ERROR - 2017-05-02 14:56:58 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\practicalproject\practicalproject\application\views\includes\header.php 40
+ERROR - 2017-05-02 15:30:21 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 15:43:40 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
+ERROR - 2017-05-02 15:43:42 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
