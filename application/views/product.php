@@ -7,7 +7,7 @@
                <div class="col-md-12">
                   <div class="panel panel-default bd_none mar_bt_13">
                      <div class="panel-heading bag_red head_padd">
-                        <h5 class="text-center white f_h5">FILTER BY</h5>
+                        <h5 class="text-center white f_h5">Filter By</h5>
                      </div>
                   </div>
                   <div class="panel panel-default">
