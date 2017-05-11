@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Ricerendezvous_admin extends Admin_Controller {
+class RiceRendezvous_admin extends Admin_Controller {
 
 	public function __construct()
 	{

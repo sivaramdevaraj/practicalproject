@@ -2,8 +2,8 @@
    <tbody>
     <tr> 
      <td valign="top" style="padding:14px 0px 10px 20px;width:100px;border-collapse:collapse"> 
-     <a href="#" title="Rice room" target="_blank">
-     <img alt="Rice room" width="100"  border="0" src="<?php echo base_url(IMAGES); ?>/logo2.png" class="CToWUd">
+     <a href="#" title="Rice Rendezvous" target="_blank">
+     <img alt="Rice Rendezvous" width="100"  border="0" src="<?php echo base_url(IMAGES); ?>/logo2.png" class="CToWUd">
      </a> </td> 
      <td style="text-align:right;padding:0px 20px"> 
       <table cellspacing="0" style="font:12px/16px Arial,sans-serif;color:#333;margin:0 auto;border-collapse:collapse" cellpadding="0"> 
@@ -95,7 +95,7 @@
     </tr> 
     <tr> <td colspan="2" style="padding:0 20px;line-height:22px;width:640px"></td></tr> 
     <tr> 
-     <td colspan="2" style="padding:0 20px 0 20px;line-height:22px;width:640px"> <p style="margin:10px 0;padding:0 0 20px 0;border-bottom:1px solid #eaeaea">We hope to see you again soon!<br> <span style="font:14px Arial,san-serif"> <strong><span class="il">Riceroom</span>.com</strong> </span> </p> </td> 
+     <td colspan="2" style="padding:0 20px 0 20px;line-height:22px;width:640px"> <p style="margin:10px 0;padding:0 0 20px 0;border-bottom:1px solid #eaeaea">We hope to see you again soon!<br> <span style="font:14px Arial,san-serif"> <strong><span class="il">RiceRendezvous</span>.com</strong> </span> </p> </td> 
     </tr> 
     <tr> 
      <td colspan="2" style="font-size:10px;color:#666;padding:0 20px 20px 20px;line-height:16px;width:640px"> <p>This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</p> </td> 

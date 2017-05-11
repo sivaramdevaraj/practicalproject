@@ -51,7 +51,7 @@ class Order_details extends Admin_Controller {
 			$message = $this -> load -> view('email/canceled',$data,TRUE);					
 		endif;
 		if($status==2 ||$status==3 || $status==4) :			
-			$this -> common_model -> send_mail('Riceroom',$user_email->email,'Your Riceroom order',$message);		
+			$this -> common_model -> send_mail('RiceRendezvous',$user_email->email,'Your RiceRendezvous order',$message);		
 		endif;			
 		
 	}
@@ -86,7 +86,7 @@ class Order_details extends Admin_Controller {
 		$this -> order -> update ($id,$order_pack);			
 		$this->data['result'] = $this->order->get($id);		
 		$message = $this -> load -> view('email/delivery',$this->data,TRUE);
-		$this -> common_model -> send_mail('Riceroom',$this->data['result']->email,'Your Riceroom order status',$message);		
+		$this -> common_model -> send_mail('RiceRendezvous',$this->data['result']->email,'Your RiceRendezvous order status',$message);		
 		$this->session->set_flashdata('message', 'Successfully Updated');
 		redirect($this -> input -> post('curl'));
 		

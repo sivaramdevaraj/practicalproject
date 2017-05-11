@@ -24,15 +24,15 @@ ERROR - 2017-03-29 16:33:54 --> Severity: Notice  --> Undefined variable: search
 ERROR - 2017-03-29 16:33:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:33:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:33:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
-ERROR - 2017-03-29 16:34:03 --> Severity: Warning  --> unlink(./uploads/products/thumb/_MG_9512.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\products.php 142
+ERROR - 2017-03-29 16:34:03 --> Severity: Warning  --> unlink(./uploads/products/thumb/_MG_9512.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\products.php 142
 ERROR - 2017-03-29 16:34:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:34:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:34:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:34:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
-ERROR - 2017-03-29 16:34:07 --> Severity: Warning  --> unlink(./uploads/products/thumb/_MG_95122.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\products.php 142
+ERROR - 2017-03-29 16:34:07 --> Severity: Warning  --> unlink(./uploads/products/thumb/_MG_95122.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\products.php 142
 ERROR - 2017-03-29 16:34:08 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:34:09 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
-ERROR - 2017-03-29 16:34:15 --> Severity: Warning  --> unlink(./uploads/products/thumb/_MG_95123.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\products.php 142
+ERROR - 2017-03-29 16:34:15 --> Severity: Warning  --> unlink(./uploads/products/thumb/_MG_95123.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\products.php 142
 ERROR - 2017-03-29 16:34:51 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:34:52 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-03-29 16:34:52 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40

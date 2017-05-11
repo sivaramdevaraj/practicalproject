@@ -326,7 +326,7 @@
               <label class="col-sm-2 control-label">Your Price (Rs)<span class="error">*</span></label>
               <div class="col-sm-2">
                 <input type="text" name="price" min="10" value="<?php echo $products->price;?>"  class="form-control required number">
-                <span class="help-block">1 Bag riceroom price</span>              
+                <span class="help-block">1 Bag ricerendezvous price</span>              
               </div>
               <label class="col-sm-2 control-label">Qty<span class="error">*</span></label>
               <div class="col-sm-2">
@@ -445,7 +445,7 @@
               <tr><th>Product type</th>          <td><?php echo $product ->product_type;?> </td></tr>
               <tr><th>Weight</th>                <td><?php echo $product ->weight;?> kg</td></tr>
               <tr><th>Market Price</th>          <td><?php echo $product->market_price;?> </td></tr>
-              <tr><th>Rice room Price</th>       <td><?php echo $product->price;?> </td></tr>
+              <tr><th>Rice Rendezvous Price</th>       <td><?php echo $product->price;?> </td></tr>
               <tr><th>Quantity</th>              <td><?php echo $product->qty;?> </td></tr>              
               <tr><th>SKU id</th>                <td><?php echo $product->sku_id;?> </td></tr>
               <tr><th>Group id</th>              <td><?php echo $product->group_id;?> </td></tr>

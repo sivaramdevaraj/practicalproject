@@ -116,7 +116,7 @@ $(document).ready(function(){
               show:true,
               backdrop:'static'
           });
-          setTimeout(function(){ $("#view_more_sales_zone").modal('toggle'); }, 2500);
+          // setTimeout(function(){ $("#view_more_sales_zone").modal('toggle'); }, 2500);
         }
     });      
   });  

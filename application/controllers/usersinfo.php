@@ -81,7 +81,7 @@ class Usersinfo extends User_Controller{
 	        $user = $this -> users -> get($user_id);
 	        $data = array('user'=>$user,'referalcode'=>$referalcode);
 	        $message = $this -> load -> view('email/register_reply',$data,TRUE); 	        
-	        $this -> common_model -> send_mail(admin_email,$user->email,'Welcome to Rice rendezvous',$message);
+	        $this -> common_model -> send_mail(admin_email,$user->email,'Welcome to Rice Rendezvous',$message);
 			$this->session->set_userdata('user',$user->id);
 			redirect($this -> input -> post('curl'));
 	    }
@@ -261,7 +261,7 @@ class Usersinfo extends User_Controller{
 			    }
 				$result = $this -> order -> update ($order->id,$canceled);				
 				$message = $this -> load -> view('ricerendezvous_admin/email/canceled',$data,TRUE);
-				$this -> common_model -> send_mail('Your Ricerendezvous order status',$user_email->email,'Ricerendezvous order cancellation',$message);				
+				$this -> common_model -> send_mail('Your RiceRendezvous order status',$user_email->email,'RiceRendezvous order cancellation',$message);				
 				$this->session->set_flashdata('message', 'Your order has been cancelled sucessfully.');
 				redirect(site_url('usersinfo/orders')); 
 			else :			

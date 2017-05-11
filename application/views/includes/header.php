@@ -114,14 +114,14 @@
                                           <td class="text-center f12"><?php echo $items['name'] ?></td>
                                           <td class="text-center"><?php echo $items['weight'] ?> kg</td>                                       
                                           <td class="text-center"><?php echo $items['qty'] ?> </td>
-                                          <td class="text-center">Rs <?php echo $items['subtotal'] ?></td>
+                                          <td class="text-center">$ <?php echo $items['subtotal'] ?></td>
                                           <td class="text-center"><a data-id="<?php echo $items['id'] ?>" href="#" class="black remove_del"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a></td>
                                        </tr>
                                     <?php } ?>
                                     <div class="clearfix"></div>
                                     <tr>
                                        <td colspan="4" style="padding: 15px 0px 0px 20px;">
-                                          <b>TOTAL AMOUNT: <span>Rs <?php echo $this->cart->format_number($this->cart->total()); ?></span></b>
+                                          <b>TOTAL AMOUNT: <span>$ <?php echo $this->cart->format_number($this->cart->total()); ?></span></b>
                                        </td>
                                        <!-- <td colspan="3"></td> -->
                                        <td>

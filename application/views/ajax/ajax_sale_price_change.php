@@ -6,10 +6,10 @@
             <button type="button" class="close red" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
          </div>
          <div class="modal-body">
-            <p class="sm_fonts">For >10bags : Rs.<?php echo $products->ws_first_rang_price ?>/each bag</p>
-            <p class="sm_fonts">10-20 Bags : Rs.<?php echo $products->ws_second_rang_price ?>/each bag</p>
-            <p class="sm_fonts">20-30 Bags : Rs.<?php echo $products->ws_third_rang_price ?>/each bag</p>
-            <p class="sm_fonts">30-40 Bags : Rs.<?php echo $products->ws_more_rang_price ?>/each bag</p>
+            <p class="sm_fonts">For >10bags : $ <?php echo $products->ws_first_rang_price ?>/ Bag</p>
+            <p class="sm_fonts">10-20 Bags : $ <?php echo $products->ws_second_rang_price ?>/ Bag</p>
+            <p class="sm_fonts">20-30 Bags : $ <?php echo $products->ws_third_rang_price ?>/ Bag</p>
+            <p class="sm_fonts">30-40 Bags : $ <?php echo $products->ws_more_rang_price ?>/ Bag</p>
          </div>
          <div class="modal-footer">
             <div class="clearfix add<?=$products->id;?>" <?php echo($cart_data!="") ? 'style="display:none;"' : ''; ?>>

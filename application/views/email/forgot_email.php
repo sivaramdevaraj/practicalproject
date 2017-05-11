@@ -18,7 +18,7 @@
          <div style="clear:both;"></div>
          <!--second end-->	  
          <div style="background: #1565c0;">
-            <p style="color:#fff;margin-bottom:0px;text-align:center;padding:10px 0;">Copyright <?php echo date('Y'); ?> &copy; Rice room</p>
+            <p style="color:#fff;margin-bottom:0px;text-align:center;padding:10px 0;">Copyright <?php echo date('Y'); ?> &copy; Rice Rendezvous</p>
          </div>
       </div>
    </body>

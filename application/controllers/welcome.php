@@ -174,8 +174,8 @@ class Welcome extends User_Controller {
 			$data=$_POST;
 			$message = $this -> load -> view('email/contact_form',$data,TRUE);
 			$message_customer = $this -> load -> view('email/contact_customer',$data,TRUE);
-			$email_result = $this -> common_model -> send_mail('info@pacificit.in','anushree@webdesignpis.com','New Contact form',$message);
-			$email_result_customer = $this -> common_model -> send_mail('info@pacificit.in',$data['email'],'Rice rendezvous',$message_customer);
+			$email_result = $this -> common_model -> send_mail('info@ricerendezvous.com.au','sdevaraj@deakin.edu.au','New Contact form',$message);
+			$email_result_customer = $this -> common_model -> send_mail('info@ricerendezvous.com.au',$data['email'],'Rice Rendezvous',$message_customer);
 			$this->session->set_flashdata('message', 'Successfully Submitted.We will get back to you');
 			redirect(site_url().'welcome/contact_us');
 		else:

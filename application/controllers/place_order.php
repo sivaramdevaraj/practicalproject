@@ -95,7 +95,7 @@ class Place_order extends User_Controller {
     $this->data['orderlist'] = $this -> order_details -> get_all('order_id',$last_id);
     $message = $this -> load -> view('email/order_details',$this->data,TRUE);
     $this->session->set_flashdata('message', 'You have sucessfully ordered'); 
-    $email_result = $this -> common_model -> send_mail('Ricerendezvous',$this->data['orders']->email,'Your order on Ricerendezvous (#'.$this->data['orders']->order_number.')',$message);   
+    $email_result = $this -> common_model -> send_mail('RiceRendezvous',$this->data['orders']->email,'Your order on RiceRendezvous (#'.$this->data['orders']->order_number.')',$message);   
   }
 
  

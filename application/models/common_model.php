@@ -19,7 +19,7 @@ class Common_model extends MY_Model {
 	{
 	 	$this->load->library('email'); 
 	 	$this->email->set_mailtype("html"); 
-		$this->email->from('info@pacificit.in','Riceroom');
+		$this->email->from('info@pacificit.in','RiceRendezvous');
        	$this->email->to($to);
        	$this->email->subject($subject);
        	$this->email->message($message);  

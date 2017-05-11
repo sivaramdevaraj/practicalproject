@@ -9,7 +9,7 @@
 	              		<i class="fa fa-lock fa-2x lock_clr pull-right"></i>
 	              	</div>
 	              	<div class="col-md-9 txt_spc">
-	              	   <h5>This is a secure payment</h5>
+	              	   <h5>This is a Secure Payment</h5>
 	              	</div>   
 	            </div>
             </div>
@@ -129,7 +129,7 @@
 	            <div class="panel panel-default">
 	              <div class="ajax_result_address">
 				  	<div class="panel-body">
-				    	<h4 class="text-center">Deliver Options</h4><hr>
+				    	<h4 class="text-center">Delivery Options</h4><hr>
 			         		<div class="delivery_time">
 				         		<i class="fa fa-truck fa-2x green"></i>
 				         		<span>Delivery in 5 - 8 Days</span>
@@ -138,19 +138,19 @@
 			         		<li><h5><?php echo $this->cart->total_items()?> Item</h5></li>
 			            </ul>
 			         	<ul class="list-unstyled">
-			         		<li><label>Order Total</label><span class="pull-right">Rs.<?php echo round($this->cart->total());?>/-</span></li>
-			         		<li><label>Delivery Charge</label><span class="pull-right">--</span></li>
+			         		<li><label>Order Total</label><span class="pull-right">$<?php echo round($this->cart->total());?></span></li>
+			         		<li><label>Delivery Charges</label><span class="pull-right">--</span></li>
 			         		<?php if($discount=$this -> session -> userdata('discount_amount')): ?>
-			         			<li><label>Discount </label><span class="pull-right">Rs.<?php echo $discount; ?></span></li>
+			         			<li><label>Discount </label><span class="pull-right">$<?php echo $discount; ?></span></li>
 			         		<?php endif; ?>
 
 			         	</ul>
 			         	<hr>
 			        	<ul class="list-unstyled">
 			        	   <?php if($discount=$this -> session -> userdata('discount_amount')): ?>
-				         	<li><label class="bold">Total</label><span class="pull-right">Rs.<?php echo round($this->cart->total()) - $discount;?>/-</span></li>
+				         	<li><label class="bold">Total</label><span class="pull-right">$<?php echo round($this->cart->total()) - $discount;?></span></li>
 				           <?php else : ?>
-				           	<li><label class="bold">Total</label><span class="pull-right">Rs.<?php echo round($this->cart->total())?>/-</span></li>
+				           	<li><label class="bold">Total</label><span class="pull-right">$<?php echo round($this->cart->total())?></span></li>
 				           <?php endif; ?>	
 				        </ul>
 

@@ -33,13 +33,13 @@
                 	</div>	                            	 
                 	 <a data-id="<?php echo $items['id'] ?>" href="#" class="red remove_del"><i class="fa fa-times"></i></a>
                 </td>
-             	<td class="text-center p_tops_33">Rs.<?php echo $items['price'] ?>/-</td>
+             	<td class="text-center p_tops_33">$ <?php echo $items['price'] ?>/-</td>
 	                
-             	<td class="text-center p_tops_33">Rs.<?php echo $items['subtotal'] ?>/-</td>
+             	<td class="text-center p_tops_33">$ <?php echo $items['subtotal'] ?>/-</td>
           	 </tr>
             <?php } ?>
           	<tr>
-          		<td colspan="6" class="text-right padd_r_10"><h4>Total Amount : Rs. <?php echo $this->cart->format_number($this->cart->total()); ?></h4></td>		                  		
+          		<td colspan="6" class="text-right padd_r_10"><h4>Total Amount : $ <?php echo $this->cart->format_number($this->cart->total()); ?></h4></td>		                  		
           	</tr>		                    
         </tbody>
     </table> 

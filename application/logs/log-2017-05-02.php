@@ -12,12 +12,12 @@ ERROR - 2017-05-02 11:02:31 --> Severity: Notice  --> Undefined variable: search
 ERROR - 2017-05-02 11:02:53 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-05-02 11:02:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-05-02 11:02:54 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
-ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95121.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 87
-ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 88
-ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 88
-ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95384-new2.jpg): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 87
-ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 88
-ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95384-new1.jpg): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\riceroom_admin\controllers\categories.php 87
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95121.JPG): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\categories.php 87
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\categories.php 88
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\categories.php 88
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95384-new2.jpg): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\categories.php 87
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/): Permission denied C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\categories.php 88
+ERROR - 2017-05-02 11:05:06 --> Severity: Warning  --> unlink(./uploads/products/_MG_95384-new1.jpg): No such file or directory C:\xampp\htdocs\ricerendezvous\application\modules\ricerendezvous_admin\controllers\categories.php 87
 ERROR - 2017-05-02 11:09:57 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-05-02 11:10:04 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
 ERROR - 2017-05-02 11:10:07 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40

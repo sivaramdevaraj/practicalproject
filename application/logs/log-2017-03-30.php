@@ -2,15 +2,15 @@
 
 ERROR - 2017-03-30 15:44:27 --> Severity: Notice  --> Undefined variable: city_id C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 33
 ERROR - 2017-03-30 15:44:27 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
-ERROR - 2017-03-30 15:51:50 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'riceroom' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
+ERROR - 2017-03-30 15:51:50 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'ricerendezvous' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
 ERROR - 2017-03-30 15:51:50 --> Unable to connect to the database
-ERROR - 2017-03-30 15:51:53 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'riceroom' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
+ERROR - 2017-03-30 15:51:53 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'ricerendezvous' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
 ERROR - 2017-03-30 15:51:53 --> Unable to connect to the database
-ERROR - 2017-03-30 15:52:02 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'riceroom' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
+ERROR - 2017-03-30 15:52:02 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'ricerendezvous' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
 ERROR - 2017-03-30 15:52:02 --> Unable to connect to the database
-ERROR - 2017-03-30 15:52:10 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'riceroom' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
+ERROR - 2017-03-30 15:52:10 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'ricerendezvous' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
 ERROR - 2017-03-30 15:52:10 --> Unable to connect to the database
-ERROR - 2017-03-30 15:52:20 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'riceroom' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
+ERROR - 2017-03-30 15:52:20 --> Severity: Warning  --> mysqli_connect(): (HY000/1049): Unknown database 'ricerendezvous' C:\xampp\htdocs\ricerendezvous\system\database\drivers\mysqli\mysqli_driver.php 76
 ERROR - 2017-03-30 15:52:20 --> Unable to connect to the database
 ERROR - 2017-03-30 15:54:17 --> Severity: Notice  --> Undefined variable: city_id C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 33
 ERROR - 2017-03-30 15:54:17 --> Severity: Notice  --> Undefined variable: search_data C:\xampp\htdocs\ricerendezvous\application\views\includes\header.php 40
