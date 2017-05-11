@@ -7,9 +7,9 @@ class Usersinfo extends User_Controller{
 		$this -> load -> model('common_model','common_model');
 		$this -> load -> model('users_model', 'users');
 		$this -> load -> model('referral_code_model', 'referral_code');  
-        $this -> load -> model ('riceroom_admin/order_model', 'order');
-		$this -> load -> model ('riceroom_admin/products_model', 'product');
-		$this -> load -> model ('riceroom_admin/order_details_model', 'order_details');
+        $this -> load -> model ('ricerendezvous_admin/order_model', 'order');
+		$this -> load -> model ('ricerendezvous_admin/products_model', 'product');
+		$this -> load -> model ('ricerendezvous_admin/order_details_model', 'order_details');
 
 	}	
  	
@@ -81,7 +81,7 @@ class Usersinfo extends User_Controller{
 	        $user = $this -> users -> get($user_id);
 	        $data = array('user'=>$user,'referalcode'=>$referalcode);
 	        $message = $this -> load -> view('email/register_reply',$data,TRUE); 	        
-	        $this -> common_model -> send_mail(admin_email,$user->email,'Welcome to Rice room',$message);
+	        $this -> common_model -> send_mail(admin_email,$user->email,'Welcome to Rice rendezvous',$message);
 			$this->session->set_userdata('user',$user->id);
 			redirect($this -> input -> post('curl'));
 	    }
@@ -260,8 +260,8 @@ class Usersinfo extends User_Controller{
 					$this -> product -> update ($product_info->id,$qty_up);
 			    }
 				$result = $this -> order -> update ($order->id,$canceled);				
-				$message = $this -> load -> view('riceroom_admin/email/canceled',$data,TRUE);
-				$this -> common_model -> send_mail('Your Riceroom order status',$user_email->email,'Riceroom order cancellation',$message);				
+				$message = $this -> load -> view('ricerendezvous_admin/email/canceled',$data,TRUE);
+				$this -> common_model -> send_mail('Your Ricerendezvous order status',$user_email->email,'Ricerendezvous order cancellation',$message);				
 				$this->session->set_flashdata('message', 'Your order has been cancelled sucessfully.');
 				redirect(site_url('usersinfo/orders')); 
 			else :			

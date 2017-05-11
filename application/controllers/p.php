@@ -6,10 +6,10 @@ class P extends User_Controller {
 	{
 		parent::__construct();
 		$this -> load->model('common_model','common_model');
-		$this -> load -> model ('riceroom_admin/categories_model', 'cats');
-		$this -> load -> model ('riceroom_admin/products_model', 'product');
-		$this -> load -> model ('riceroom_admin/gallery_model', 'gallery');
-		$this -> load -> model ('riceroom_admin/review_model', 'rating');
+		$this -> load -> model ('ricerendezvous_admin/categories_model', 'cats');
+		$this -> load -> model ('ricerendezvous_admin/products_model', 'product');
+		$this -> load -> model ('ricerendezvous_admin/gallery_model', 'gallery');
+		$this -> load -> model ('ricerendezvous_admin/review_model', 'rating');
 	}
 
 	public function index($sku_id)

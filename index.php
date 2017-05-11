@@ -19,7 +19,7 @@
  *
  */
 	define('ENVIRONMENT', 'development');
-	ini_set('date.timezone', 'Asia/Calcutta');
+	ini_set('date.timezone', 'Australia/Melbourne');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

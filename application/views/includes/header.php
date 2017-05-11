@@ -156,7 +156,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-3 col-sm-2 hidden-xs">
-                  <a href="<?php echo site_url()?>welcome/index"><img src="<?php echo base_url(IMAGES); ?>/RR.JPG" class="img-responsive logo" alt="image"></a>
+                  <a href="<?php echo site_url()?>welcome/index"><img src="<?php echo base_url(IMAGES); ?>/logo_2b.png" class="img-responsive logo" alt="image"></a>
                </div>
                <div class="col-md-9 col-sm-10 col-xs-12 navs_top">
                   <nav class="navbar navbar-default  nav_back_no pull-right menu_r_no_xs" role="navigation">

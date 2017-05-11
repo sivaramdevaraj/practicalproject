@@ -2,7 +2,7 @@
    <div class="page-header">
       <div class="col-sm-6 pull-left" >
         <div class="page-title" >
-            <h3>Dashboard <small>Welcome to Admin <?php echo timespan($this->session->userdata('old_last_login'), time()) ;?> since last visit</small></h3>
+            <h3>Dashboard <small>Welcome to Rice Rendezvous Admin <?php echo timespan($this->session->userdata('old_last_login'), time()) ;?> since last visit</small></h3>
         </div>
       </div>
       <div class="col-sm-5 light pull-right" id="clock" >
@@ -41,7 +41,7 @@
       </li>
       <li class="bg-danger">
         <a href="<?php echo site_url().admin?>cities/index/1">
-        <div class="top-info">Zip Codes<small></small>city pincode list</div>
+        <div class="top-info">Zip Codes<small></small>City Pincode list</div>
         <i class="icon-barcode2"></i><span class="bottom-info bg-primary">Pincode</span></a>
       </li>           
     </ul>

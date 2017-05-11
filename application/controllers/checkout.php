@@ -9,9 +9,9 @@ class Checkout extends User_Controller {
 		$this -> load -> model('referral_amount_model', 'referral_amount');		
 		$this -> load -> model('referral_code_model', 'referral_code');		
 		$this -> load -> model('common_model','common_model');
-		$this -> load -> model ('riceroom_admin/area_model', 'pincode');
-		$this -> load -> model ('riceroom_admin/categories_model', 'cats');
-		$this -> load -> model ('riceroom_admin/products_model', 'product');
+		$this -> load -> model ('ricerendezvous_admin/area_model', 'pincode');
+		$this -> load -> model ('ricerendezvous_admin/categories_model', 'cats');
+		$this -> load -> model ('ricerendezvous_admin/products_model', 'product');
 	}
 
 	public function index()

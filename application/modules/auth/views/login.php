@@ -17,7 +17,7 @@
 <body class="full-width page-condensed">
 <!-- Navbar -->
 <div class="navbar navbar-inverse" role="navigation">
-  <div class="navbar-header"><a class="navbar-brand" href="#">Rice Room<!-- <img src="<?php echo base_url()?>assets/images/logo.png" height ="28" alt="Prabha Info Solutions"> --></a></div>  
+  <div class="navbar-header"><a class="navbar-brand" href="#">Rice Rendezvous<!-- <img src="<?php echo base_url()?>assets/images/logo.png" height ="28" alt="Prabha Info Solutions"> --></a></div>  
 </div>
 <!-- /navbar -->
 <!-- Login wrapper -->

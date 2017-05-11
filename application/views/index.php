@@ -122,7 +122,7 @@
             </div>
          </div>
          <div class="clearfix">
-            <img src="<?php echo base_url(IMAGES); ?>/icon.png" class="img-responsive" data-sr="wait 0.3s,enter down">
+            <img src="<?php echo base_url(IMAGES); ?>/icon_1a.png" class="img-responsive" data-sr="wait 0.3s,enter down">
          </div>
       </div>
    </div>
@@ -135,7 +135,7 @@
          <div class="col-md-10 center-block f_none">
             <h2 class="red style_font text-center">Return/Exchange Service</h2>
             <div class="col-md-4 col-sm-5">
-               <img src="<?php echo base_url(IMAGES); ?>/ret_img.png">
+               <img src="<?php echo base_url(IMAGES); ?>/retimg.png">
             </div>
             <div class="col-md-8 col-sm-7">
                <br>
@@ -144,10 +144,10 @@
                <br>
                <h4 class="green"><b>Compromise in the Quality means</b></h4>
                <div>
-                  <p>1.Rice is not cooking Properly.</p>
-                  <p>2.Found any of fissures.</p>
-                  <p>3.Found any empty or half filled grains.</p>
-                  <p>4.Found any contaminants such as stones,Junk Outcasts and weed seeds.</p>
+                  <p>1. Rice is not cooking Properly.</p>
+                  <p>2. Found any of fissures.</p>
+                  <p>3. Found any empty or half filled grains.</p>
+                  <p>4. Found any contaminants such as stones,Junk Outcasts and Weed Seeds.</p>
                </div>
             </div>
          </div>

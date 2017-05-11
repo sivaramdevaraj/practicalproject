@@ -19,9 +19,9 @@ define('DIR_READ_MODE', 0755);
 define('DIR_WRITE_MODE', 0777);
 
 
-define('admin', 'riceroom_admin/');
-define('admin_email', 'info@riceroom.com');
-define('test_email','karuna.upp@rkandcompany.co.in');
+define('admin', 'ricerendezvous_admin/');
+define('admin_email', 'info@ricerendezvous.com');
+define('test_email','devarajsivaram@gmail.com');
 define('CSS','resources/css');
 define('JS','resources/js');
 define('IMAGES','resources/images');

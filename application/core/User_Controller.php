@@ -6,11 +6,11 @@ class User_Controller extends MY_Controller {
 	{
 		parent::__construct();			
 		$this->load->model('common_model','common_model');
-		$this -> load -> model ('riceroom_admin/city_model','city');
-		$this -> load -> model ('riceroom_admin/pages_model','pages');
-		$this -> load -> model ('riceroom_admin/contents_model','contents');
+		$this -> load -> model ('ricerendezvous_admin/city_model','city');
+		$this -> load -> model ('ricerendezvous_admin/pages_model','pages');
+		$this -> load -> model ('ricerendezvous_admin/contents_model','contents');
 		$this ->  load -> model('users_model', 'users');		
-		$this -> load -> model ('riceroom_admin/categories_model', 'cats');
+		$this -> load -> model ('ricerendezvous_admin/categories_model', 'cats');
 		$this->data['cart_content']= $this->cart->contents();
 		$this -> db ->order_by('id','ASC');	
 		$check_data=array('parent_id'=>'0','status'=>'1');

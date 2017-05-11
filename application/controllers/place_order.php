@@ -9,12 +9,12 @@ class Place_order extends User_Controller {
     $this -> load -> model('referral_amount_model', 'referral_amount');   
     $this -> load -> model('referral_code_model', 'referral_code');   
     $this -> load -> model('common_model','common_model');
-    $this -> load -> model ('riceroom_admin/products_model', 'products');
-    $this -> load -> model ('riceroom_admin/area_model', 'pincode');
-    $this -> load -> model ('riceroom_admin/categories_model', 'cats');
-    $this -> load -> model ('riceroom_admin/products_model', 'product');
-    $this -> load -> model ('riceroom_admin/order_details_model', 'order_details');
-    $this -> load -> model ('riceroom_admin/order_model', 'order');
+    $this -> load -> model ('ricerendezvous_admin/products_model', 'products');
+    $this -> load -> model ('ricerendezvous_admin/area_model', 'pincode');
+    $this -> load -> model ('ricerendezvous_admin/categories_model', 'cats');
+    $this -> load -> model ('ricerendezvous_admin/products_model', 'product');
+    $this -> load -> model ('ricerendezvous_admin/order_details_model', 'order_details');
+    $this -> load -> model ('ricerendezvous_admin/order_model', 'order');
 	}
 
   public function shipping()
@@ -41,7 +41,7 @@ class Place_order extends User_Controller {
         'shipping_phone'     => $shipping_phone,
         'shipping_city'     => $shipping_city,
         'shipping_postcode'     => $shipping_postcode,
-        'shipping_state'     => 'karnataka',
+        'shipping_state'     => 'Victoria',
         'payment_type'     => $payment_type,
         'order_number'      => $order_number,
         'delivery_charge'     => $get_pincode->delivery_charge,
@@ -95,7 +95,7 @@ class Place_order extends User_Controller {
     $this->data['orderlist'] = $this -> order_details -> get_all('order_id',$last_id);
     $message = $this -> load -> view('email/order_details',$this->data,TRUE);
     $this->session->set_flashdata('message', 'You have sucessfully ordered'); 
-    $email_result = $this -> common_model -> send_mail('Riceroom',$this->data['orders']->email,'Your order on Riceroom (#'.$this->data['orders']->order_number.')',$message);   
+    $email_result = $this -> common_model -> send_mail('Ricerendezvous',$this->data['orders']->email,'Your order on Ricerendezvous (#'.$this->data['orders']->order_number.')',$message);   
   }
 
  

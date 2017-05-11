@@ -6,10 +6,10 @@ class Welcome extends User_Controller {
 	{
 		parent::__construct();
 		$this -> load->model('common_model','common_model');
-		$this -> load -> model ('riceroom_admin/city_model','city');
-		$this -> load -> model ('riceroom_admin/categories_model', 'cats');
-		$this -> load -> model ('riceroom_admin/products_model', 'product');
-		$this -> load -> model ('riceroom_admin/review_model', 'rating');
+		$this -> load -> model ('ricerendezvous_admin/city_model','city');
+		$this -> load -> model ('ricerendezvous_admin/categories_model', 'cats');
+		$this -> load -> model ('ricerendezvous_admin/products_model', 'product');
+		$this -> load -> model ('ricerendezvous_admin/review_model', 'rating');
 	}
 
 	public function index()
@@ -175,7 +175,7 @@ class Welcome extends User_Controller {
 			$message = $this -> load -> view('email/contact_form',$data,TRUE);
 			$message_customer = $this -> load -> view('email/contact_customer',$data,TRUE);
 			$email_result = $this -> common_model -> send_mail('info@pacificit.in','anushree@webdesignpis.com','New Contact form',$message);
-			$email_result_customer = $this -> common_model -> send_mail('info@pacificit.in',$data['email'],'Rice room',$message_customer);
+			$email_result_customer = $this -> common_model -> send_mail('info@pacificit.in',$data['email'],'Rice rendezvous',$message_customer);
 			$this->session->set_flashdata('message', 'Successfully Submitted.We will get back to you');
 			redirect(site_url().'welcome/contact_us');
 		else:
